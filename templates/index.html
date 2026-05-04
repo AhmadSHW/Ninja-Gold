@@ -29,10 +29,18 @@
 					<input type="submit" value="find gold">
 				</form>
 			</div>
+			<div class="box">
+				<h2>cave</h2>
+				<p>(earns 5-10 golds)</p>
+				<form action="/process_money"method="post">
+					<input type="hidden" name="building" value="cave">
+					<input type="submit" value="find gold">
+				</form>
+			</div>
 
 			<div class="box">
 				<h2>Casino</h2>
-				<p>(earns/takes 0-50 golds)</p>
+				<p>(earns/takes -50-50 golds)</p>
 				<form action="/process_money"method="post">
 					<input type="hidden" name="building" value="casino">
 					<input type="submit" value="find gold">
